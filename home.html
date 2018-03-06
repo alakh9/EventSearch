@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <title>events</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row"> 
+                <div class="col-md-6 col-md-offset-4" style="margin-top:111px;">
+                    <form class="events" action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-4">  <input type="text" class="city" value="" placeholder="city" /></div>
+                           <div class="col-md-3"> <input type="submit" class="button" name="get_city" value="Get City" /> </div>
+                        </div>
+                        
+                    </form>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div >
+                    <table class="result" id="events">
+                       <thead>
+                        <tr>
+                      
+                         <th> Name </th>
+                        <th> Picture </th>
+                        <th> Date </th>
+                        </tr>
+                       <tbody class="tableresut">
+                           
+                       </tbody>
+                    
+                    </table>
+                </div>
+                </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.dataTables.min.js"></script>
+        <script src="js/dataTables.bootstrap.min.js"></script>
+        <script src="js/dataTables.buttons.min.js"></script>
+        <script src="js/buttons.flash.min.js"></script>
+        
+    
+        <script src="server.js"></script>
+    </body>
+</html>

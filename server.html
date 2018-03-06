@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+        <script>
+console.log("hello world")
+
+        // var queryURL = "https://app.ticketmaster.com/discovery/v2/events.json?size=1&apikey=ZIZsX9ksHXMNHr8CMQkaJadiQnDHuBEk"
+        // console.log(queryURL)
+        // $.ajax({
+        //     url: queryURL,
+        //     method: "GET"
+        // }).done(function (response) {
+        //         console.log(response);   
+        //     });
+        $.ajax({
+            url: `https://app.ticketmaster.com/discovery/v2/venues.json?&apikey=ZIZsX9ksHXMNHr8CMQkaJadiQnDHuBEk`,
+            type: 'GET',
+            async: true,
+            dataType: "json"
+            
+        });
+            console.log(result)
+            console.log(data)
+            console.log(response)
+            console.log(i)
+            //   var venues = result._embedded.venues;
+            //   console.log(venues)
+            //   var locationArray = [];
+            // //   venues.forEach((venue) => {
+            //     var locationObj = {
+            //       'id': venue.id,
+            //       'city': venue.city.name,
+            //       'state': venue.state.stateCode
+            //     }
+            //     locationArray.push(locationObj);
+            //   })
+            //   locationArray = _.uniqBy(locationArray, 'city');
+            //   locationArray = locationArray.sort((a, b) => { console.log(a.city + ', ' + b.city); return a.city - b.city; });
+            //   this.setState({
+            //     locations: locationArray
+            //   });
+            
+            // error: (data) => {
+            //   console.error('GET error: ', data);
+            // }
+        //   });
+        
+        </script>
+
+    </body>
+</html>

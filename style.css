@@ -1,0 +1,107 @@
+body{
+    background: url('css/stadium.jpg');
+    background-size: 100%;
+    
+}
+#container{
+    margin-left: 30px;
+}
+.city
+{
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 9px;
+}
+.button{
+    margin-left: 18px;
+    margin-top: 4px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #b9b1b1;
+}
+form.register > div
+{
+    margin-bottom: 10px;
+}
+form.register div input[type=text],form.register div input[type=password]
+{
+width: 73%;
+    padding: 5px;
+    border: none;
+}
+form.register div input[type=submit]
+{
+    margin-left: 20%;
+    padding-right: 63px;
+    text-align: center;
+    padding-left: 63px;
+}
+.logindiv
+{
+   background: #887272;
+    border-radius: 9px;
+    
+}
+.logindiv form
+{
+    padding-left: 161px;
+    padding-top: 25px;
+    padding-bottom: 29px;
+}
+.logindiv form input[type=text],.logindiv form input[type=password]
+{
+    margin-bottom: 12px;
+    border: none;
+    text-align: center;
+}
+.logindiv form input[type=submit]
+{
+    margin-top: 7px;
+    margin-left: 57px;
+    color: white;
+    background: black;
+}
+.eventbtn a
+{
+   text-decoration: none;
+   background-color: #255625;
+   padding: 10px;
+   border-radius: 3px;
+   color:#fff;
+}
+.eventView
+{
+    margin-left: 36% !important;
+    margin-top: 86px;
+    
+}
+.go_back a
+{
+    text-decoration: none;
+    background: green;
+    color:#fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+.welcome
+{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    font-family: inherit;
+}
+.logout a
+{
+    background: #337ab7;
+    padding: 5px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color:gray;
+ }
+
+
