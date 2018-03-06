@@ -24,12 +24,15 @@ User Authentication:
 -	Last Name 
 -	Username 
 -	Password
+
 API: 
 -	Ticket-Master API was used to pull the events based on the users city interests.
+
 DataBase:
 -	 MySQL was used to create 2 tables. 
 -	One for registration.
 -	Second for the events that the user decides to save.
+
 Technologies Used:
 -	MySQL 
 -	PHP 
@@ -44,7 +47,6 @@ Technologies Used:
 -	HTML5
 =======
 
->>>>>>> 620e8f2ef9cb96ab418308e7542827fcdcd8e310
 
 
 
