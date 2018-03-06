@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EventSearch
 
 Event-Search
@@ -41,6 +42,9 @@ Technologies Used:
 -	JavaScript
 -	CSS
 -	HTML5
+=======
+
+>>>>>>> 620e8f2ef9cb96ab418308e7542827fcdcd8e310
 
 
 
